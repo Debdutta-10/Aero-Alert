@@ -1,9 +1,10 @@
 import './App.css';
+import Tempapp from './components/Tempapp.js';
 
 function App() {
   return (
     <>
-      <div>hello</div>
+      <Tempapp></Tempapp>
     </>
   );
 }
