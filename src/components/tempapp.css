@@ -48,3 +48,12 @@ img{
 .nocity p{
     font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 600px){
+    .main-container{
+        width: 85%;
+    }
+    h3{
+        text-align: center;
+    }
+}
