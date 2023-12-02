@@ -10,6 +10,8 @@ function Tempapp() {
     setSearchCity(e.target.value);
   };
 
+  //hello
+  
   const tempconv = (kelvin) => {
     let cel = kelvin - 273.15; // Convert Kelvin to Celsius
     return cel.toFixed(2); // Round to 2 decimal places
